@@ -4,19 +4,19 @@
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>BizGenius project</title>
-     <!-- css custom file link -->
+      <!-- bootstrap adding -->
+     <link rel="stylesheet" href="./CSS/all.min.css"/>
+     <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+      <!-- css custom file link -->
      <link rel="stylesheet" href="./style.css"/>
-     <!-- bootstrap adding -->
-     <link rel="stylesheet" href="./bootstrap5/all.min.css"/>
-     <link rel="stylesheet" href="../Assets/bootstrap5/bootstrap.min.css">
 </head>
-<body>
+<body> 
      <!-- home one page -->
      <section class="home1">
          <div class="container">
           <div class="header_top">
                <nav class="navbar navbar-expand-lg bg-transparent text-white">
-                    <div class="container-fluid">
+                    <div class="container-fluid ">
                       <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                           <li class="nav-item">
@@ -54,14 +54,15 @@
           </div>
          </div>
      </section>
-     <section class="header_main">
+     <!-- navbar -->
+      <section class="header_main">
           <div class="container">
                <div class="header_wrap">
                     <div class="logo"><img src="./images/homePageImages/Frame.svg" alt=""><h2>BizGenius</h2></div>
                     <nav class="nav_menu">
                          <ul class="menu">
                               <li class="menu_item">
-                                   <a href="#">Home <i class="plus"></i></a>
+                                   <a href="#" class="active">Home <i class="plus"></i></a>
                                    <ul class="submenu">
                                         <li class="menu_item"><a href="#">Home1</a></li>
                                         <li class="menu_item"><a href="#">Home2</a></li>
@@ -132,6 +133,7 @@
                <button id="next"><img src="./images/homePageImages/LeftArrow.svg" alt=""></button>
           </div>
      </div>
+     <!-- service list -->
      <section class="Service_list">
           <div class="container service_details">
                <div class="service_text">
@@ -142,7 +144,7 @@
                <img src="./images/homePageImages/white-pattern-bg 1.png" alt="" class="white_pattern">
           </div>
           <div class="row">
-               <div class="col-3">
+               <div class="col-12 col-md-6 col-lg-3">
                     <div class="box">
                          <div class="box_title">
                              <div class="box_img">
@@ -153,7 +155,7 @@
                          <p>Services related to financial record-keeping, bookkeeping preparation.</p>
                     </div>
                </div>
-               <div class="col-3">
+               <div class="col-12 col-md-6 col-lg-3">
                     <div class="box">
                          <div class="box_title">
                              <div class="box_img">
@@ -164,7 +166,7 @@
                          <p>Services related to financial record-keeping, bookkeeping preparation.</p>
                     </div>
                </div>
-               <div class="col-3">
+               <div class="col-12 col-md-6 col-lg-3">
                     <div class="box">
                          <div class="box_title">
                              <div class="box_img">
@@ -175,7 +177,7 @@
                          <p>Services related to financial record-keeping, bookkeeping preparation.</p>
                     </div>
                </div>
-               <div class="col-3">
+               <div class="col-12 col-md-6 col-lg-3">
                     <div class="box">
                          <div class="box_title">
                              <div class="box_img">
@@ -191,7 +193,7 @@
      <section class="technolozy">
           <div class="container">
                <div class=" row providing_technology">
-                    <div class="col-7">
+                    <div class="col-12 col-md-6 col-lg-7">
                         <div class="main_img">
                               <img src="./images/homePageImages/Img.png" alt="">
                               <div class="child_img">
@@ -204,10 +206,10 @@
 
                         </div>
                     </div>
-                    <div class="col-5">
+                    <div class="col-12 col-md-6 col-lg-5">
                          <div class="providing_technology_content">
                               <div class="content_top">
-                                   <h6>providing_technology</h6>
+                                   <h6>About Us</h6>
                                    <img src="./images/homePageImages/Group 1.svg" alt="">
                               </div>
                               <h2>Providing technical , software installation, and <h3>consulting</h3>  for businesses.</h2>
@@ -247,8 +249,104 @@
                </div>
           </div>
      </section>
+     <!-- agent page -->
+     <section class="agent">
+          <div class="container agent_wraper">
+               <div class="agent_wrapper_content">
+                    <div class="agent_title">
+                         <h5>What we do</h5>
+                         <img src="./images/homePageImages/Group 1.svg" alt="">
+                    </div>
+                    <div class="agent_content">
+                         <h2>Why Should Choose Agent</h2>
+                    </div>
+               </div>
+               <div class="agent_card">
+                    <div class="row">
+                         <div class="col-12 col-md-6 col-lg-4">
+                              <div class="agent_parent_content">
+                                   <div class="agent_parent_img">
+                                        <img src="./images/homePageImages/Base (2).png" alt="">
+                                   </div>
+                                   <div class="agent_content_with_img">
+                                        <img src="./images/homePageImages/checklist.png" alt="">
+                                        <h2>01</h2>
+                                        <h3>Accounting and Bookkeeping</h3>
+                                        <p>Services related to financial record-keeping bookkeeping.</p>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="col-12 col-md-6 col-lg-4">
+                              <div class="agent_parent_content">
+                                   <div class="agent_parent_img">
+                                        <img src="./images/homePageImages/Base (3).png" alt="">
+                                   </div>
+                                   <div class="agent_content_with_img">
+                                        <img src="./images/homePageImages/checklist.png" alt="">
+                                        <h2>02</h2>
+                                        <h3>Data Analysis and Business Intelligence</h3>
+                                        <p>Services related to financial record-keeping bookkeeping.</p>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="col-12 col-md-6 col-lg-4">
+                              <div class="agent_parent_content">
+                                   <div class="agent_parent_img">
+                                        <img src="./images/homePageImages/Base (1).png" alt="">
+                                   </div>
+                                   <div class="agent_content_with_img">
+                                        <img src="./images/homePageImages/checklist.png" alt="">
+                                        <h2>03</h2>
+                                        <h3>Virtual Assistant Services</h3>
+                                        <p>Services related to financial record-keeping bookkeeping.</p>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>     
+     </section>
+     <!-- agency -->
+     <!-- <section class="agency">
+          <div class="container">
+               <div class="agency_title">
+                    <h6>Frequently Asked Questions</h6>
+                    <img src="./images/homePageImages/Group 1.svg" alt="">
+                    <h2>Agency is Building a top Business Sectors</h2>
+               </div>
+                <div class="agency-wrap">
+                    <div class="col-4">
+                         <div class="agency_content">
+                              <img src="./images/homePageImages/right_arrow.png" alt="">
+                              <h4>Marketing and Advertising</h4>
+                              <p>Services related to financial record-keeping.</p>
+                         </div>
+                         <div class="agency_content">
+                              <img src="./images/homePageImages/right_arrow.png" alt="">
+                              <h4>Marketing and Advertising</h4>
+                              <p>Services related to financial record-keeping.</p>
+                         </div>
+                         <div class="agency_content">
+                              <img src="./images/homePageImages/right_arrow.png" alt="">
+                              <h4>Marketing and Advertising</h4>
+                              <p>Services related to financial record-keeping.</p>
+                         </div>
+                    </div>
+                    <div class="col-4">
+                         <div class="agency_images">
+                              <img src="./images/homePageImages/Rectangle1.png" alt="">
+                              <div class="years_experience">
+                                   <h1>20</h1>
+                                   <div class="text"><p>YEARS EXPERIENCE YEARS EXPERIENCE</p></div>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="col-4"></div>
+                </div>
+          </div>
+     </section> -->
+     <script src="./CSS/bootstrap.min.js"></script>
           <!-- js file -->
      <script src="./script.js"></script>
-     <script src="./bootstrap5/bootstrap.min.js"></script>
 </body>
 </html>

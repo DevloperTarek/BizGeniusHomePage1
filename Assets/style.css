@@ -542,10 +542,19 @@ p,span,button,h6{
      transition: all 3s ease;
      animation: animated 2s linear 1s infinite;
 }
+@keyframes myanim {
+     0%{
+          transform: translateY(0);
+     }
+     100%{
+          transform: translateY(-5px);
+     }
+}
 .providing_technology .main_img .child_img :nth-child(2){
      position: absolute;
      bottom: -15%;
      z-index: -1;
+     animation: myanim 1s linear infinite;
 }
 .providing_technology .main_img .child_img :nth-child(3){
      position: absolute;
